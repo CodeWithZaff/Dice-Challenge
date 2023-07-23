@@ -1,0 +1,84 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #f0c106;
+  box-shadow: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.players {
+  display: flex;
+  justify-content: center;
+  gap: 10px ;
+}
+
+.players div {
+  padding: 20px;
+  border: 3px solid #e70a0a;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+img {
+  width: 80%;
+}
+
+#result{
+  width: 28%;
+  height: 60px;
+  border: 2px dotted #2c2c2c;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 20px auto;
+  display: grid;
+  place-items: center;
+}
+
+button{
+  padding: 10px 15px;
+  width: 28%;
+  font-weight:bold; 
+  font-size: 1.1rem;
+  color: black;
+  cursor: pointer;
+  transform: all 0.4s;
+}
+
+button:active{
+  transform: scale(0.9);
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
